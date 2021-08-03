@@ -21,7 +21,7 @@ const peopleOver30 = list.filter((person) => {
     return person.age >= 30;
 });
 
-console.log(`peopleOver30 ${JSON.stringify(peopleOver30)}`);
+console.log(`peopleOver30 \n${JSON.stringify(peopleOver30)}`);
 
 //chaining
 const firstNameOfPeopleOver30 = list
